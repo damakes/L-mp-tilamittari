@@ -7,6 +7,7 @@ Lämpötilamittari mittaa ympäristön lämpötilan, jonka jälkeen mittaustulok
 Moottori tuulettaa ympäristöä teholla, joka on verrannollinen lämpötilan nou-suun ja laskuun. Kuitenkin lopettaen tuulettamisen asetusarvon saavuttaes-sa.
 
 ## Kaaviokuva ja Prosessi
+![temp_ard](https://github.com/damakes/L-mp-tilamittari/assets/155246347/900c0f94-f360-4408-b0b8-808514993e1c)
 
 Kaaviokuvassa näkyvän toiminnan kuvaus TMP36 analogiselta anturilta. An-turi mittaa lämpötilan, jonka jälkeen mittaustulos annetaan lähtöjännitteenä pinnille A0. Mittaustulos tuodaan LCD-näytölle, joka on kytketty seuraavasti: 12,11,5,4,3,2. Mittauksen aikana käyttäjälle näytetään viesti LCD-näytöllä, joka kertoo toiminnan vaiheista. Kun mittaus on suoritettu, mittaustulokset ovat luettavissa LCD-näytöllä. Arduino ohjaa DC Moottorin nopeutta pin 9 PWM, eri lämpötila-alueilla.  
 
