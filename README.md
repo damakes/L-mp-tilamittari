@@ -4,11 +4,11 @@
 
 Tämä Arduino-projekti käyttää TMP36-lämpötila-anturia mittaamaan ympäristön lämpötilaa. LCD-näyttö näyttää tuloksen, ja tuulettimen nopeus säätyy lämpötilan perusteella. Lämpötilamittari mittaa ympäristön lämpötilan ja käynnistää DC-moottorin, kun lämpötila ylittää asetusarvon. Moottori tuulettaa ympäristöä teholla, joka reagoi lämpötilan muutoksiin. Toiminta lopetetaan asetusarvon saavuttaessa.
 
-Kaaviossa kuvataan TMP36-analogisen anturin toimintaa. 
+
 
 ![diag](https://github.com/damakes/L-mp-tilamittari/assets/155246347/278492fa-8605-4d2b-9181-5e2473e5ee32)
 
-Arduino ohjaa DC-moottorin nopeutta pin 9 PWM:llä eri lämpötila-alueilla. Anturi mittaa lämpötilan, ja mittaustulos syötetään Arduinoon pinnin A0 kautta. 
+Kaaviossa kuvataan TMP36-analogisen anturin toimintaa. Arduino ohjaa DC-moottorin nopeutta pin 9 PWM:llä eri lämpötila-alueilla. Anturi mittaa lämpötilan, ja mittaustulos syötetään Arduinoon pinnin A0 kautta. 
 Tulos näytetään LCD-näytöllä, joka on liitetty Arduinoon pinneillä 12, 11, 5, 4, 3, 2. Käyttäjälle näytetään viesti LCD-näytöllä mittauksen jälkeen.
 
 <br>Komponentit valmistanut [Arduino](https://store.arduino.cc/collections/kits).
