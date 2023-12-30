@@ -11,3 +11,6 @@ Lämpötilamittari mittaa ympäristön lämpötilan ja käynnistää DC-moottori
 Kaaviossa kuvataan TMP36-analogisen anturin toimintaa. Anturi mittaa lämpötilan, ja mittaustulos syötetään Arduinoon pinnin A0 kautta. Tulos näytetään LCD-näytöllä, joka on liitetty Arduinoon pinneillä 12, 11, 5, 4, 3, 2. Käyttäjälle näytetään viesti LCD-näytöllä mittauksen aikana. Mittauksen jälkeen tulokset ovat luettavissa LCD-näytöllä. Arduino ohjaa DC-moottorin nopeutta pin 9 PWM:llä eri lämpötila-alueilla.
 
 Laitteen toiminta perustuu TMP36-anturin mittaamaan lämpötilatietoon, joka syötetään Arduinoon ja näytetään käyttäjälle LCD-näytöllä. Saatua tietoa käytetään myös tuulettimen nopeuden ohjauksessa.
+
+<br>Komponentit valmistanut [Arduino](https://store.arduino.cc/collections/kits).
+<br>Toteutettu [Arduino IDE:llä](https://wiki-content.arduino.cc/en/software) / Tämä löytyy myös Microsoft storesta.
