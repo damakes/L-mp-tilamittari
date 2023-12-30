@@ -1,6 +1,6 @@
 # Lämpötilan Mittaus ja Tuulettimen Ohjaus
 
-![tuuuuu](https://github.com/damakes/L-mp-tilamittari/assets/155246347/007b6c6b-ddd7-46a6-ba22-27cdf6999653) ![temp_ard](https://github.com/damakes/L-mp-tilamittari/assets/155246347/55f8e2fa-8c62-43c0-bc85-aefb6b31243d) 
+![tuuuuu](https://github.com/damakes/L-mp-tilamittari/assets/155246347/007b6c6b-ddd7-46a6-ba22-27cdf6999653)![temp_ard](https://github.com/damakes/L-mp-tilamittari/assets/155246347/55f8e2fa-8c62-43c0-bc85-aefb6b31243d) 
 
 Tämä Arduino-projekti käyttää TMP36-lämpötila-anturia mittaamaan ympäristön lämpötilaa. LCD-näyttö näyttää tuloksen, ja tuulettimen nopeus säätyy lämpötilan perusteella. Lämpötilamittari mittaa ympäristön lämpötilan ja käynnistää DC-moottorin, kun lämpötila ylittää asetusarvon. Moottori tuulettaa ympäristöä teholla, joka reagoi lämpötilan muutoksiin. Toiminta lopetetaan asetusarvon saavuttaessa.
 
