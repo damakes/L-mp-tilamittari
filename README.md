@@ -1,15 +1,26 @@
-# Temperature-Sensor-Fan-Control
+## Embedded Systems IoT Course Project 1
+<img src="https://github.com/damakes/Temperature-Sensor-Fan-Control/assets/155246347/e3b0eeb2-7f9a-4b8f-b403-fc4fc214c568" width="200" height="280"> <img src="https://github.com/damakes/L-mp-tilamittari/assets/155246347/007b6c6b-ddd7-46a6-ba22-27cdf6999653" width="200" height="280">
 
-The Temperature Measurement and Fan Control project utilizes Arduino and a TMP36 temperature sensor to measure ambient temperature. It displays the temperature on an LCD screen and adjusts the speed of a fan accordingly. When the temperature exceeds a predefined threshold, a DC motor activates to ventilate the environment. 
+The aim of the course project was to create an automated fan control system using the microcontroller board [Arduino Uno](https://www.arduino.cc/en/Guide/ArduinoUno). The project was developed as part of an Embedded Systems/IoT course during my second year of studies in the Bachelor of Engineering program at XAMK UAS.
 
-![tuuuuu](https://github.com/damakes/L-mp-tilamittari/assets/155246347/007b6c6b-ddd7-46a6-ba22-27cdf6999653)
 
-**The diagram illustrates the operation of the TMP36 analog sensor**
--
-Arduino controls the speed of the DC motor using PWM on pin 9 in different temperature ranges. The sensor measures the temperature, and the measurement result is input to the Arduino via pin A0. The result is displayed on an LCD screen connected to the Arduino with pins 12, 11, 5, 4, 3, 2. A message is displayed to the user on the LCD screen after the measurement.
+
+
+
+**Schema**
 
 ![diag](https://github.com/damakes/L-mp-tilamittari/assets/155246347/278492fa-8605-4d2b-9181-5e2473e5ee32)
+-
+ + Pin 9 to adjust the DC motor's speed based on temperature. 
+ + TMP36 sends analog signal to board via pin A0. 
+ + Measurement is displayed on LCD, connected to board pins 12, 11, 5, 4, 3, 2.
 
-This project provides a practical demonstration of temperature sensing, in environmental monitoring and automated fan control systems.
 
-<br>Implemented with [Ardiono IDE](https://wiki-content.arduino.cc/en/software) / Also available on the Microsoft Store.
+
+
+
+
+The project was built using [Arduino IDE](https://wiki-content.arduino.cc/en/software), programming language C++. Schema Design made with [Tinkercad](https://www.tinkercad.com/).
+
+
+
